@@ -1,1 +1,1 @@
-web: gunicorn Sonata_WMS_finale.wsgi:application --log-file -
+web: gunicorn inventoryAPI.wsgi:application --log-file -
